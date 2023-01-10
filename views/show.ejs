@@ -3,14 +3,16 @@
 <a href="/">Home</a>
 
 <% signs.forEach(sign => { %>
-   <a href="/<%= element %>/<%= sign %>"><%= sign %></a>
-<% }) %>
+    <a href="/<%= element %>/<%= sign %>"><%= sign %></a>
+ <% }) %>
 
-<p>Traits</p>
+ <p>Traits</p>
 <ul>
 <% traits.forEach(trait => { %>
    <li><%= trait %></li>
 <% }) %>
 </ul>
+
+
 
 <%- include("partials/footer.ejs") %>
